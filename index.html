@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tyler.d.ross</title>
     <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="frontpage.css" />
+      <script src="js/vendor/modernizr.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
 
 
@@ -37,33 +38,37 @@
         </nav>
       </div>
     
+      <div class="row" id="initial">
+          <div class="large-4 columns"></div>
+          <div class="large-12 columns">
+            
+                <h2 style="left:550px; top:100px; position:relative; font-size: 100px; color:black;" id="hello">Welcome </h2>
+                <h4 style="left:700px; top:80px; position:relative; font-size: 15px; color:black;">Hover to Enter</h4>
+            </div>
+          <div class="large-4 columns"></div>
+      </div>
       
-      
-      <div class="row">
-         
+      <div class="row" id="hidden">
+         <br><br><br><br>
             <div class="large-8 medium-8 columns">
-               <br><br><br>
+               <div class="panel">
             <h5>Hello I'm Tyler!!!</h5>
             <p>I like to build cool computer stuff and see other people use it.</p>
             <p>When I'm not working on solving problems, I'm probably riding bikes, taking pictures, doing math, and fixing (other people's) bikes. This site is my attempt to collaborate all my different interests into one singular hub.</p>
             <p> I have used a series of widgets to present all my work and hobbies into a semicomprehensive encyclopedia, that hopefully presents a decent overview of the things I do.</p>    
                 
-            <p>This is the website I built on the Foundation Framework.</p>
+            <p>This is the website I built on the Foundation Framework and my own Javascript, HTML and jQuery.</p>
                 
             <p>Thanks for visiting!</p>
-            <div style="margin-left: 20%; margin-right: auto; ">        
-                <!-- SnapWidget -->
-            <iframe src="http://snapwidget.com/in/?u=ZXJtYWhnZXJkYmlrZXN8aW58MTI1fDN8M3xmZmZmZnxub3w1fGZhZGVJbnxvblN0YXJ0fHllc3xubw==&ve=050815" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:390px; height:390px"></iframe>
-                </div>
+            </div>
              </div>
           
           <div class="large-4 medium-4 columns">
-          <br><br>
-              <img src= "Me.jpg">
+          <br>
+              <img src= "Me.jpg" style="border-radius: 25px;">
                 
               <br> <br>
               <div></div>
-              <iframe height='160' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/606841/activity-summary/14a690a6724f9ef792de2e4cb197d9059837fa68'></iframe>
 
               </div>
           
@@ -80,22 +85,22 @@
       </div>
 
           
+<br><br><br><br>
 
 
 
-
       
       
       
       
       
       
-<div class = "footer">
+<div class = "footer" id="footer">
    <div class="large-12 columns">
       <hr>
 
       <div class="row">
-        <div class="large-8 columns">
+        <div class="large-8 columns" style:"color:black;">
           <p>Created by tyler.d.ross 2015</p>
         </div>
 
@@ -111,6 +116,7 @@
       
       <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="frontpage.js"></script>
     <script>
       $(document).foundation();
     </script>
