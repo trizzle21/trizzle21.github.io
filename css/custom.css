@@ -1,0 +1,50 @@
+#welcome { 
+  background: url("/img/baybridge.JPG") 50% 0 repeat fixed; min-height: 600px; 
+  background-size:cover;
+  height: 700px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+
+}
+ 
+#information { 
+  height: 600px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+
+#intermezzo {  
+  background: url("/img/intermezzo.jpg") 50% 0 no-repeat fixed; min-height: 600px; 
+  background-size:cover;
+  height: 700px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+
+}
+
+
+#intermezzo2 { 
+  background: url("/img/moon.jpg") 50% 0 repeat fixed; min-height: 600px; 
+  height: 700px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+
+}
+
+#intermezzo3 { 
+  background: url("/img/Earth.jpg") 50% 0 repeat fixed; min-height: 600px; 
+  height: 700px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+
+}
