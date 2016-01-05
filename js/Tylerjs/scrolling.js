@@ -6,5 +6,14 @@ $(document).ready(function(){
         var vertPos = $loc.data('speed');
         var coor = '50%' + vertPos + 'px';
         $loc.css({ backgroundPosition: coor });
+        
     });
+    
+    
+    
+    
+
+
 });
+
+
