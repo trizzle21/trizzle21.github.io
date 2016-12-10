@@ -9,11 +9,15 @@
 
 ## Description of Project
 
-trizzle21.github.io is static page generated with Jeykll and hosted with Github Pages.
+trizzle21.github.io is static page generated with Jeykll and hosted with Github Pages. Serves as my personal website
 
 ## Personal Style Guide
 
 Tabs > spaces
+
+In order to run on local machine, run 
+
+```jekyll serve
 
 ## Copyright
 
