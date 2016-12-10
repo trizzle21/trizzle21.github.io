@@ -170,5 +170,27 @@ div.text_description {
     vertical-align:top;
 }
 
+.profile_section {
+    display:block;
+}
 
+#profile_p {
+    margin-left: 20px;
+    float:left;
+    display:inline-block; 
+}
 
+#profile_pic{
+    padding: 0 20px 5px 0;
+    float:left;
+    position:relative;
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+
+}
+
+.profile_text {
+    padding-left: 30px;
+    display: block;
+}
