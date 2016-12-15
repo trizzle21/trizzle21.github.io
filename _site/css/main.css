@@ -1,5 +1,8 @@
+@font-face {
+  font-family: "San Francisco Bold";
+  src: url("fonts/SanFranciscoText-Regular.otf"), url("fonts/SanFranciscoText-Bold.otf"); }
 body {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "San Francisco Bold", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   background-color: #fdfdfd;
   color: #111; }
 
@@ -64,7 +67,7 @@ nav {
 
 .page-links {
   margin: 20px 30px 30px 40px;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+  font-family: "San Francisco Bold", "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
 
 .page-titles {
   font-size: 100px; }

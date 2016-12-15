@@ -3,8 +3,15 @@
 ---
 @charset "utf-8";
 
+@font-face {
+  font-family: "San Francisco Bold";
+  src: url("fonts/SanFranciscoText-Regular.otf"),
+       url("fonts/SanFranciscoText-Bold.otf");
+}
+
+
 // Our variables
-$base-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+$base-font-family: "San Francisco Bold", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 
 
 $base-font-size:   20px;
