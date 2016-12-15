@@ -85,7 +85,7 @@ div.text_description {
   vertical-align: top; }
 
 .project_image {
-  padding-top: 20px;
+  margin: 40px auto 0 30px;
   width: 75%;
   height: 200px; }
 
@@ -104,6 +104,11 @@ div.text_description {
   display: inline-block;
   height: 350px;
   width: 300px; }
+
+#personalsitelogo {
+  margin-top: 100px;
+  height: 50px;
+  width: 75%; }
 
 .profile_text {
   padding-left: 30px;
