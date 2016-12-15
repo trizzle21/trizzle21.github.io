@@ -28,7 +28,6 @@ h1 {
   position: absolute;
   top: 50px;
   /*Change as needed*/
-  width: 50%;
   right: 0; }
 
 .navwrap a {
@@ -42,9 +41,6 @@ h1 {
   body {
     margin-left: 0;
     overflow-x: hidden; }
-
-  .grid-container {
-    margin: 0; }
 
   .navwrap {
     width: 90%; }
