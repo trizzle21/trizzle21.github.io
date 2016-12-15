@@ -110,7 +110,10 @@ h1 {
         width:90%; 
 
     }
-    
+    .profile_text { 
+        margin-left: 0;
+    }
+
     #back { 
         margin-top: 0px;
         width:100%; 
@@ -228,7 +231,7 @@ div.text_description {
 
 
 .profile_text {
-    padding-left: 30px;
+    margin-left: 30px;
     display: block;
 }
 
