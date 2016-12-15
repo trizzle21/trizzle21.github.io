@@ -28,14 +28,30 @@ h1 {
   position: absolute;
   top: 50px;
   /*Change as needed*/
+  width: 50%;
   right: 0; }
 
 .navwrap a {
   padding-left: 30px; }
 
 #back {
-  padding-left: 10px; }
+  padding-left: 10px;
+  width: 50%; }
 
+@media all and (max-width: 650px) {
+  body {
+    margin-left: 0;
+    overflow-x: hidden; }
+
+  .grid-container {
+    margin: 0; }
+
+  .navwrap {
+    width: 90%; }
+
+  #back {
+    margin-top: 0px;
+    width: 100%; } }
 nav {
   display: inline-block;
   vertical-align: baseline; }
