@@ -233,12 +233,19 @@ div.text_description {
 .profile_text {
     margin-left: 30px;
     display: block;
+
 }
 
 
-//.footer {
-//    height:40px;
-//    position: absolute;
-//    bottom:0;
-//    width: 100%;
-//}
+#strava-widget {
+    width: 30%;
+    display:inline-block;
+    margin: 20px 30px 0 0;
+}
+
+
+#github-widget {
+    width:60%;
+    display:inline-block;
+    padding-top:-50px;
+}
