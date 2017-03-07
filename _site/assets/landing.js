@@ -1,4 +1,3 @@
-console.log("loaded!");
 
 (function(){
     var launch = {
