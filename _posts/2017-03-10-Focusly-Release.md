@@ -1,0 +1,19 @@
+---
+layout: post
+author: "Tyler"
+---
+It's 3 months in and I've finally released Focusly! Focusly is a online tabata timer that integrates with Spotify that I vowed to finish in ~3 months in my New Years resolution. This post is going to be an update on that as well as introductin my new project.
+
+Focusly is not an overly sophisticated tool built on node.js (express.js), redux, redux router, react sound and react. Express.js handles the oAuth2 authentication tokens as the middle man between the client and the user while Redux  and React handle the client side state and views. The way it works is that the user chooses the number of cycles and two playlists for both their work and rest sessions. The user than is guided to page which utilizes a timer and a Spotify play button in the sidebar. When the timer ends, a subtle alarm is sounded and the user is prompted to start change playlists.
+
+One frustrating part of this project has been dealing with Spotify's play button. It doesn't listen to events, so only user actions can trigger the change of playlists. This caused me to pivot and use an sweet alarm instead, since I can't the control iFrame. It's obviously a pretty large flaw, and I'm anticipating Spotify to change this in the future which is why I'm labeling the project as in beta, since I'm at the will of Spotify. 
+
+I also had to pivot to user playlists instead of genres because of the restrictive Spotify API, when you churn up a recommendation seed with spotify it returns a mix of artists and tracks which I would have to turn into a playlist for it to work in the play button. It got very nasty and I found it was much easier to handle user playlists. In my personal use for this tool, I have specific playlists for each work and rest period.
+
+There are still features to add like fixing the oAuth refresh token, but I'm comfortable with the product as it stands. I don't expect a real user base, but rather a showcase of some work that I do publicly rather than behind a user wall with Stir.
+
+I'm glad I got this project out of my hair. I've been working on my other projects like picking up C and other smaller projects, but at a reduced rate. I still need to finish my linear prediction algorithm and clean up some code for my SmartCells project and my C projects are inching along very slowly. I'm planning on backseating this project for now since it works, and looks alright. 
+
+I've also been on the full time grind with interviews and recruiters so that has been absolutely exhausting since my position at Stir ended. My advice would be to take a break once in a while. Go outside, ride a bike, go lift some heavy weights. Very cliche yes, but I've done almost two sample periods these last 4 weeks. One where I did absolutely nothing but apply to jobs and code, and the other where I trained 6 days of the week. I did spend less time with jobs and code, but my productivity increased radically. I actually got out of bed earlier and I was less inclined to not sleep. All of this is ancedotal at best though.
+
+Woohoo to next adventures.
