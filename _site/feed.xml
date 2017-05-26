@@ -6,8 +6,8 @@
 </description>
     <link>tylerdross.com/</link>
     <atom:link href="tylerdross.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Mar 2017 17:42:58 -0800</pubDate>
-    <lastBuildDate>Sat, 11 Mar 2017 17:42:58 -0800</lastBuildDate>
+    <pubDate>Fri, 26 May 2017 16:43:42 -0400</pubDate>
+    <lastBuildDate>Fri, 26 May 2017 16:43:42 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -28,7 +28,7 @@
 
 &lt;p&gt;Woohoo to next adventures.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 10 Mar 2017 00:00:00 -0800</pubDate>
+        <pubDate>Fri, 10 Mar 2017 00:00:00 -0500</pubDate>
         <link>tylerdross.com/2017/03/10/Focusly-Release.html</link>
         <guid isPermaLink="true">tylerdross.com/2017/03/10/Focusly-Release.html</guid>
         
@@ -53,7 +53,7 @@
 
 &lt;p&gt;Woah this is exciting! Happy New Years!!!&lt;/p&gt;
 </description>
-        <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
         <link>tylerdross.com/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html</link>
         <guid isPermaLink="true">tylerdross.com/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html</guid>
         
@@ -83,7 +83,7 @@
 &lt;p&gt;In the end, I feel like my problems are a little overembellished. It’s a very fast way to build static websites and deploy them rapidly. It includes lots of neat little features and has a very simple templating system. The documentation is clear and very well written. It hasn’t a very clean step by step process on each aspect of the section. It’s so much nicer than my original site which was plain html and css. I honestly can’t imagine using anything else and github-pages is totally free to host. Despite it’s slight learning curve and annoying default file system, I think everyone should use this as their personal site generator especially if they don’t need a backend or click and drag site generators.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 19 Sep 2016 00:00:00 -0700</pubDate>
+        <pubDate>Mon, 19 Sep 2016 00:00:00 -0400</pubDate>
         <link>tylerdross.com/2016/09/19/A-Honest-Review-of-Jeykll.html</link>
         <guid isPermaLink="true">tylerdross.com/2016/09/19/A-Honest-Review-of-Jeykll.html</guid>
         
