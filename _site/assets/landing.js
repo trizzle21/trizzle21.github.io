@@ -21,7 +21,7 @@
             
         },
         bindEvents : function(){
-            this.$about.on("mouseenter mouseleave", this.$about, this.show.bind(this,this.$sub_about ));
+            this.$about.on("mouseenter mouseleave", this.$about, this.show.bind(this, this.$sub_about));
             this.$work.on("mouseenter mouseleave", this.$work, this.show.bind(this,this.$sub_work ));
             this.$blog.on("mouseenter mouseleave", this.$blog, this.show.bind(this,this.$sub_blog ));
             this.$contact.on("mouseenter mouseleave", this.$contact, this.show.bind(this,this.$sub_contact ));
@@ -36,6 +36,16 @@
         },
         show : function(jqloc){
             jqloc.toggle();
+            $.each([this.$sub_about, this.$sub_work, this.$sub_blog, this.$sub_contact], function( index, value ) {
+                if(jqloc == value){
+                    value.closest('div').css('color','black')
+                } else {
+                    value.closest('div').css('color','grey')
+                }
+            
+            });
+
+
         }
         
         
