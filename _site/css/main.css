@@ -8,8 +8,7 @@
   -webkit-touch-callout: none;
   -webkit-text-size-adjust: none;
   -webkit-highlight: none;
-  min-height: 0 !important;
-  color: '#FAF9F5'; }
+  min-height: 0 !important; }
 
 .article {
   position: relative;
@@ -49,6 +48,13 @@ article .content {
   font-size: 30px;
   line-height: 40px;
   letter-spacing: 12px; }
+
+.arrow-text {
+  white-space: nowrap;
+  position: absolute;
+  font-size: 8px;
+  bottom: 0;
+  left: -75%; }
 
 .slide-2 {
   background-image: url("../assets/images/planets.jpg"); }
@@ -99,6 +105,13 @@ article .content {
     width: 100%;
     visibility: hidden; }
 
+  .content p {
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 6px; }
+
   .slide-image {
     top: 50%;
     width: 650px;
@@ -127,17 +140,18 @@ a.scroll-down-arrow {
   cursor: default;
   pointer-events: none; }
 
-.scroll-down-arrow::before {
+.scroll-down-arrow .arrow:before {
   content: " ";
   position: absolute;
   left: 50%;
   top: 0;
+  height: 100%;
   width: 0;
   border-left: 1px solid #2F4F4F;
   z-index: 1;
   pointer-events: none; }
 
-.scroll-down-arrow::after {
+.scroll-down-arrow .arrow:after {
   content: " ";
   position: absolute;
   bottom: 4px;
