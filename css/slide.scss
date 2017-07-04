@@ -1,0 +1,212 @@
+// slide css 
+// Required for about section
+
+.slideBody {
+  overflow: hidden;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-highlight: none;
+  min-height: 0 !important;
+  color: '#FAF9F5';
+}
+
+
+
+.article {
+  position: relative;
+  z-index: 1;
+  font-weight: 200;
+  font-size: 20px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  color: #FAF9F5;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+
+article .content {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  margin: auto;
+}
+
+.content p {
+  position: absolute;
+  width: 100%;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 12px;
+}
+
+.content h2 {
+  position: absolute;
+  top:50%;
+  width: 100%;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 12px;
+
+
+}
+
+.slide-2 {
+    background-image: url('../assets/images/planets.jpg');
+}
+
+.fadeIn {
+  animation-play-state: running;
+  animation: fadeIn 500ms linear 0s 1 normal forwards;
+
+}
+.hidden {
+	visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.active{
+    z-index: 999 !important;
+    visibility: visible !important;
+
+}
+
+.slide-container {
+	overflow: hidden; 
+    left:0;
+	top:0;
+	width:100%;
+}
+
+.content {
+    height: 640px;
+}
+.slide {
+    left:0;
+	top:0;
+	width:100%;
+	visibility: hidden;
+}
+
+.slide-image {
+    top:50%;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#atom {
+    margin-top: 180px;
+    width: 300px;
+    height: 100%;
+}
+
+@media all and (max-width:650px){     
+    .slide {
+		left:0;
+		top:0;
+        width:100%;
+        visibility: hidden;
+
+	
+	}
+	
+	.slide-image {
+        top:50%;
+        width: 650px;
+        margin-top: 150px;
+	}
+
+}
+@media all and (max-width:480px){     
+    .slide-image {
+        top:50%;
+        width: 480px;
+        margin-top: 150px;
+
+    }
+}
+
+
+a.scroll-down-arrow {
+  height: 80px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+  z-index: 1000;
+  background: rgba(33, 33, 33, 0);
+  -moz-transition: opacity 1s 0;
+  -o-transition: opacity 1s 0;
+  -webkit-transition: opacity 1s 0;
+  transition: opacity 1s 0;
+  cursor: default;
+  pointer-events: none;
+}
+
+
+.scroll-down-arrow::before {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 0;
+    border-left: 1px solid #2F4F4F;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.scroll-down-arrow::after{
+    content: " ";
+    position: absolute;
+    bottom: 4px;
+    left: 7px;
+    border-left: 1px solid #2F4F4F;
+    border-bottom: 1px solid #2F4F4F;
+    width: 26px;
+    height: 26px;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    pointer-events: none;
+}
+
+a.scroll-down-arrow .arrow {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  height: 80px;
+  width: 40px;
+  display: block;
+}
+
+
+
+a.scroll-down-arrow.visible {
+  opacity: 1;
+  pointer-events: visible;
+  cursor: pointer;
+}
+a.scroll-down-arrow.visible .arrow {
+  -webkit-animation: arrow 1s ease-in-out infinite;
+  -moz-animation: arrow 1s ease-in-out infinite;
+  -o-animation: arrow 1s ease-in-out infinite;
+  animation: arrow 1s ease-in-out infinite;
+}
+
