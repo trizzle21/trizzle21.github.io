@@ -91,10 +91,10 @@ article .content {
 }
 
 .slide-container {
-	overflow: hidden; 
+  	overflow: hidden; 
     left:0;
-	top:0;
-	width:100%;
+  	top:0;
+  	width:100%;
 }
 
 .content {
@@ -102,15 +102,17 @@ article .content {
 }
 .slide {
     left:0;
-	top:0;
-	width:100%;
-	visibility: hidden;
+  	top:0;
+  	width:100%;
+  	visibility: hidden;
 }
 
 .slide-image {
     top:50%;
     width: 100%;
     margin-top: 100px;
+    opacity: 0.75;
+
 }
 
 #atom {
@@ -121,8 +123,8 @@ article .content {
 
 @media all and (max-width:650px){     
     .slide {
-		left:0;
-		top:0;
+		    left:0;
+		    top:0;
         width:100%;
         visibility: hidden;
 
@@ -140,6 +142,7 @@ article .content {
         top:50%;
         width: 650px;
         margin-top: 150px;
+
 	}
 
 }
