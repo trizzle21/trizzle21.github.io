@@ -1,0 +1,121 @@
+
+.header-div {
+  text-align: center;
+  height:100px;
+  line-height: 100px;
+}
+
+
+.right-show {
+    display: inline-block;
+    vertical-align:middle;
+
+}
+
+.menu-items {
+    padding-bottom: 100px;
+}
+
+.hamburger {
+    width: 40px;
+}
+
+.hamburger img {
+    margin: 15px;
+    width:40px;
+    display: none;
+    position: absolute;
+}
+
+
+@include media-query($on-tablet) {
+    .menu-items {
+        visibility: hidden;
+    }
+    .right-standard {
+        visibility: hidden;
+
+    }
+    .hamburger img{
+        display: inline-block;
+    }
+    .head-logo {
+       left: 0%;
+       display: inline-block;
+       position: absolute;
+       display: block;
+
+
+    }
+
+}
+
+@include media-query($on-palm) {
+    .menu-items {
+        visibility: hidden;
+    }
+    .hamburger{
+        display: inline-block;    
+    }
+
+    .head-logo {
+        display: inline-block;
+        left: 5%;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+
+    }
+
+}
+
+
+
+ 
+.left-show {
+    display: inline-block;
+    vertical-align:middle;
+}
+
+
+.header-button{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    vertical-align:middle;
+}
+
+
+.head-logo {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 90px;
+    margin-left: 90px;
+
+}
+
+#head-logo-img {
+    width:180px;
+    height:70;
+}
+
+
+
+
+/* Standard Header */
+.standard-header-div {
+    background-color: $brand-color;
+    height:100px;
+}
+
+.right-standard {
+    padding-top: 20px;
+
+    float:right;
+    padding-right: 40px;
+    color:white;
+    vertical-align: middle;
+}
