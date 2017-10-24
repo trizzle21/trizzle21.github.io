@@ -1,0 +1,40 @@
+// SlideShow CSS
+
+@include media-query($on-tablet) {
+
+    .slide {
+        width: 100%;
+    }
+    .slide-selector {
+        display: none;
+    }
+    .slide-selector.selected {
+        display: block;
+        margin-bottom: -50px;
+    }
+
+}
+
+.slide {
+    display: none;
+
+}
+.slide:hover{
+    color: #fff;
+
+}
+
+.slide.active {
+    opacity: 1.0 !important;    
+    display: block;
+    margin: 0 auto;
+    transition: color 0.7s ease-in 0.3s;
+}
+
+.section-title {
+    font-size: 28px;
+}
+
+.section-description {
+    font-size: 20px;
+}
