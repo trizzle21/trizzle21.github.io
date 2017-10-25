@@ -51,11 +51,13 @@
         changeSlide:function(slide_count){
             var currentSlide = $('#slide-' + this.activeSlide);
             var nextSlide = $('#slide-' + slide_count);
-
             this.activeSlide = slide_count;
-            currentSlide.removeClass('active');
-            nextSlide.addClass('active');
+            currentSlide.fadeOut(200, function(){
+                currentSlide.removeClass('active');
+                nextSlide.addClass('active');
             
+            });            
+
             $('.selected').removeClass('selected');
             $('#slide-selector-' + slide_count).addClass('selected');
 
@@ -77,12 +79,17 @@
                 this.activeSlide = 0
 
             }else {
-                this.activeSlide = this.activeSlide+1;
+                this.activeSlide = this.activeSlide + 1;
             }
-
-            currentSlide.removeClass('active');
-            nextSlide.addClass('active');
             
+            currentSlide.fadeOut(200, function(){
+                currentSlide.removeClass('active');
+                nextSlide.addClass('active');
+            
+            });            
+
+
+
 
         }
 

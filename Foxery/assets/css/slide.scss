@@ -16,7 +16,9 @@
 }
 
 .slide {
-    display: none;
+    display: none;    
+    margin: 0 auto;
+
 
 }
 .slide:hover{
@@ -25,10 +27,16 @@
 }
 
 .slide.active {
-    opacity: 1.0 !important;    
-    display: block;
+    display: block !important;
     margin: 0 auto;
-    transition: color 0.7s ease-in 0.3s;
+
+}
+
+.slide.active img{
+    transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -webkit-transition: opacity 1s linear;
+
 }
 
 .section-title {

@@ -316,16 +316,20 @@ h3 {
     display: block;
     margin-bottom: -50px; } }
 .slide {
-  display: none; }
+  display: none;
+  margin: 0 auto; }
 
 .slide:hover {
   color: #fff; }
 
 .slide.active {
-  opacity: 1.0 !important;
-  display: block;
-  margin: 0 auto;
-  transition: color 0.7s ease-in 0.3s; }
+  display: block !important;
+  margin: 0 auto; }
+
+.slide.active img {
+  transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear; }
 
 .section-title {
   font-size: 28px; }
