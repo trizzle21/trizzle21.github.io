@@ -1,7 +1,11 @@
 .title {
+    padding-top: 50px;
     font-size: 40px;
-
+    text-align: center;
+    z-index: 1000; 
+    color:white;
 }
+
 
 h1 {
     font-size: 50px;
@@ -11,10 +15,83 @@ h3 {
     font-size: 30px;
 }
 
+.title-hr {
+  position: absolute;
+  left:49%;
+  height: 4px;
+  margin-top: -22px;
+  color: white;
+  background-color: white;
+  width: 310px;
+}
+
+
+#revolution {
+  margin:auto;
+  width: 100%;
+  background-size: 100% ;
+  padding-bottom: 62.5%;
+  background-image: url(/assets/images/mockups/mockup_screens.png);
+  background-repeat:no-repeat;
+}
+
+@include media-query(800px) {
+  .title {
+    font-size: 25px;
+  }
+  .title-hr {
+    display: none;
+  }
+
+
+
+}
+
+@include media-query($on-palm) {
+  .title {
+    font-size: 18px;
+    z-index: 1000; 
+    color:white;
+  }
+
+  .top-content {
+    padding-bottom: 10px;
+
+  }
+
+  // #revolution {
+  //   height: 400px;
+  //   background-size: 100%;
+  // }
+}
+
+#philosophy-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+
+@include media-query(800px) {
+  #philosophy-title {
+    font-size: 25px;
+  }
+
+}
+
+@include media-query($on-palm) {
+  #philosophy-title {
+    font-size: 25px;
+  }
+}
+
+
+
+
 .top-content {
     background-color: $brand-color;
     color:white;
     width: 100%;
+    margin-bottom: -35px;
 }
 .home {
     height: 600px;
@@ -53,26 +130,28 @@ h3 {
 
 .divider-a {
   display: flex;
-  margin: 0 -100px 0 -30px;
+  height: 400px;
   width: 100%;
-  height: 300px;
   background-image: url('http://himalayanyogamilwaukee.org/wp-content/uploads/2017/08/YogaLingo.jpg');
-  background-size: 130% auto;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: 50% 30%;
   filter: blur(0px) grayscale(100%);
 
 }
 @include media-query($on-tablet) {
-
+    .philosophy {
+      text-align: center;
+    }
     .divider-a { 
         background-size: 100% auto;
-
-        margin: 0 0 0 0;
-        width: 100%;
+        margin: 0 -100px 0 -30px;
+        width: 140%;
     }
 
 }
+
+
 
 .ui-info {
     cursor: pointer; 
