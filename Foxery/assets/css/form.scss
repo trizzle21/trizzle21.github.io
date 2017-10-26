@@ -5,7 +5,7 @@
 }
 
 .form-group input{
-    width: 500px;
+        width: 90%;
     display: block;
     font-size: 16px;
 }
@@ -15,7 +15,7 @@
 }
 
 .form-group textarea{
-    width: 500px;
+    width: 90%;
     display: block;
     font-size: 16px;
     resize: none;
@@ -45,20 +45,23 @@
     background-repeat: no-repeat;
 }
 
-@include media-query($on-palm) {
+@include media-query(900px) {
     .form-group label {
         font-size: 16px;
     }
 
     .contact-form-region{
-         background-image: none;
-         margin: 0 -100px 0 -30px;
+        background-image: none;
+        margin-top: -200px;
+        width: 100%;
+         height:100%;
+
 
     }
     .contact-form {
         margin: 0 -100px 0 -30px;
-        box-shadow: none;
-        width: 100%
+        width: 130%;
+
 
     }
     .submit-button {
@@ -66,12 +69,12 @@
 
     }
     .form-group textarea{
-        width: 300px;
+        width: 100%;
         display: block;
         font-size: 12px;
     }
     .form-group input{
-        width: 300px;
+        width: 100%;
         display: block;
         font-size: 12px;
     }
@@ -80,17 +83,23 @@
 
 }
 
-@include media-query($on-tablet) {
+@include media-query($on-palm) {
     .form-group textarea{
-        width: 100px;
+        width: 300px;
         display: block;
         font-size: 14px;
     }
     .form-group input{
-        width: 100px;
+        width: 300px;
         display: block;
         font-size: 14px;
     }
+    .contact-form-region {
+    }
+    .contact-form {
+
+    }
+
 
 
 }

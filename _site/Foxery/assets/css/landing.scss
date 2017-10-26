@@ -27,12 +27,12 @@ h3 {
 
 
 #revolution {
-  margin:auto;
   width: 100%;
   background-size: 100% ;
   padding-bottom: 62.5%;
-  background-image: url(/assets/images/mockups/mockup_screens.png);
-  background-repeat:no-repeat;
+  background-image: url('../images/mockups/mockup_screens.png');
+  background-repeat: no-repeat;
+  z-index: 1000;
 }
 
 @include media-query(800px) {
@@ -128,24 +128,55 @@ h3 {
   font-size: 20px;
 }
 
+
+.goal{ 
+  padding-top: 50px;
+}
+
 .divider-a {
-  display: flex;
-  height: 400px;
-  width: 100%;
-  background-image: url('http://himalayanyogamilwaukee.org/wp-content/uploads/2017/08/YogaLingo.jpg');
-  background-size: 100% auto;
+  position: relative;
+  margin-top: -100px;
+  margin-bottom: -200px;
+
+  height: 700px;
+  background-image: url('../images/stock/food-image.png');
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 30%;
-  filter: blur(0px) grayscale(100%);
+  z-index: -1;
 
 }
-@include media-query($on-tablet) {
+@include media-query(900px) {
+    .goal{ 
+      padding-top: 0px;
+    }
+
+    .philosophy {
+      text-align: center;
+    }
+
+    #food {
+      margin: 0 -100px 0 -30px;
+    }
+    .divider-a { 
+        background-size: 100% auto;
+        margin: 0;
+        width: 140%;
+    }
+}
+
+@include media-query($on-palm) {
+    .goal{ 
+      padding-top: 0px;
+    }
+
     .philosophy {
       text-align: center;
     }
     .divider-a { 
+            margin: 0 0 0 -100px;
+
         background-size: 100% auto;
-        margin: 0 -100px 0 -30px;
+        margin: 0;
         width: 140%;
     }
 

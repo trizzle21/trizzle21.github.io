@@ -154,7 +154,7 @@ a {
 .grid-container * {
   box-sizing: border-box; }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 900px) {
   .grid-container {
     margin: 0 0 0 0;
     width: 100%; }
@@ -163,10 +163,10 @@ a {
     width: 33.33%; }
 
   .col-2 {
-    width: 50%; }
+    width: 100%; }
 
   .col-3 {
-    width: 83.33%; }
+    width: 100%; }
 
   .col-4 {
     width: 100%; }
@@ -247,12 +247,12 @@ h3 {
   width: 310px; }
 
 #revolution {
-  margin: auto;
   width: 100%;
   background-size: 100%;
   padding-bottom: 62.5%;
-  background-image: url(../images/mockups/mockup_screens.png);
-  background-repeat: no-repeat; }
+  background-image: url("../images/mockups/mockup_screens.png");
+  background-repeat: no-repeat;
+  z-index: 1000; }
 
 @media screen and (max-width: 800px) {
   .title {
@@ -311,23 +311,44 @@ h3 {
   text-decoration: bold;
   font-size: 20px; }
 
+.goal {
+  padding-top: 50px; }
+
 .divider-a {
-  display: flex;
-  height: 400px;
-  width: 100%;
-  background-image: url("http://himalayanyogamilwaukee.org/wp-content/uploads/2017/08/YogaLingo.jpg");
-  background-size: 100% auto;
+  position: relative;
+  margin-top: -100px;
+  margin-bottom: -200px;
+  height: 700px;
+  background-image: url("../images/stock/food-image.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 30%;
-  filter: blur(0px) grayscale(100%); }
+  z-index: -1; }
 
 @media screen and (max-width: 900px) {
+  .goal {
+    padding-top: 0px; }
+
+  .philosophy {
+    text-align: center; }
+
+  #food {
+    margin: 0 -100px 0 -30px; }
+
+  .divider-a {
+    background-size: 100% auto;
+    margin: 0;
+    width: 140%; } }
+@media screen and (max-width: 600px) {
+  .goal {
+    padding-top: 0px; }
+
   .philosophy {
     text-align: center; }
 
   .divider-a {
+    margin: 0 0 0 -100px;
     background-size: 100% auto;
-    margin: 0 -100px 0 -30px;
+    margin: 0;
     width: 140%; } }
 .ui-info {
   cursor: pointer;
@@ -390,7 +411,7 @@ h3 {
   font-size: 20px; }
 
 .form-group input {
-  width: 500px;
+  width: 90%;
   display: block;
   font-size: 16px; }
 
@@ -398,7 +419,7 @@ h3 {
   color: #828282; }
 
 .form-group textarea {
-  width: 500px;
+  width: 90%;
   display: block;
   font-size: 16px;
   resize: none;
@@ -423,39 +444,40 @@ h3 {
   background-size: 100%;
   background-repeat: no-repeat; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .form-group label {
     font-size: 16px; }
 
   .contact-form-region {
     background-image: none;
-    margin: 0 -100px 0 -30px; }
+    margin-top: -200px;
+    width: 100%;
+    height: 100%; }
 
   .contact-form {
     margin: 0 -100px 0 -30px;
-    box-shadow: none;
-    width: 100%; }
+    width: 130%; }
 
   .submit-button {
     float: center; }
 
   .form-group textarea {
-    width: 300px;
+    width: 100%;
     display: block;
     font-size: 12px; }
 
   .form-group input {
-    width: 300px;
+    width: 100%;
     display: block;
     font-size: 12px; } }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .form-group textarea {
-    width: 100px;
+    width: 300px;
     display: block;
     font-size: 14px; }
 
   .form-group input {
-    width: 100px;
+    width: 300px;
     display: block;
     font-size: 14px; } }
 .form-group {
@@ -474,7 +496,7 @@ h3 {
 .ui-footer {
   height: 600px;
   width: 100%;
-  background-color: #828282;
+  background-color: #1E2832;
   color: white;
   display: inline-block;
   text-align: center;
@@ -486,7 +508,7 @@ h3 {
   padding-bottom: -40px; }
 
 .ui-footer-title {
-  color: #424242;
+  color: #828282;
   display: block; }
 
 .footer-logo {
