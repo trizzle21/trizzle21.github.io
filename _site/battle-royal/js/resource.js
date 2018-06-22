@@ -1,3 +1,5 @@
+
+
 ;(function() {
 
     var resourceCache = {};
@@ -9,7 +11,7 @@
             images.forEach(function(url){
                 if(resourceCache[url]){
                     return resourceCache[url]
-                } else {
+                }else {
                     var img = new Image();
                     img.onload = function() {
                         resourceCache[url] = img;
