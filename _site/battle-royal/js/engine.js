@@ -5,10 +5,11 @@ var Engine = (function(){
     lastTime;
 
     canvas.width = 900;
-    canvas.height = 380;
+    canvas.height = 340;
 
 
     function init() {
+        game.allEnemies = game.generateEnemies(game.level);
         lastTime = Date.now();
         main();
     }
@@ -33,10 +34,17 @@ var Engine = (function(){
 
     }
     
-
     function update(currentTime) {
+        if (game.allEnemies.length == 0){
+            game.level += 1; 
+            highscore = Math.max(highscore, game.level);
+
+            game.allEnemies = game.generateEnemies(game.level);
+
+        }
         function collisionCheck(){
             player = game.player;
+            
             for(i=0; i < game.allEnemies.length; i++){
                 
                 enemy = game.allEnemies[i];
@@ -45,23 +53,25 @@ var Engine = (function(){
                    player.position.y < enemy.position.y + enemy.hitbox[0] &&
                    player.position.y + player.hitbox[0] > enemy.position.y
                 ){
-                    game.running = false;
-                    
-                    ctx.font="80px Georgia";
-
-                    ctx.fillText("TRY AGAIN!" + game.lives, 300, 300);
-
-                    if (!(game.lives - 1 < 0)){
-                        game.lives -= 1;
-                        reset();
+                    if(player.attacking){
+                        game.allEnemies.splice(i, 1);
                     } else {
-                        alert("Sorry out of lives");
-                        return;
-                        //should redirect away
+                        game.running = false;
+                        
+                        ctx.font="80px Georgia";
+
+                        ctx.fillText("TRY AGAIN!" + game.lives, 300, 300);
+
+                        if (!(game.lives - 1 < 0)){
+                            game.lives -= 1;
+                            reset();
+                        } else {
+                            highscore = game.level;
+                            alert("Sorry out of lives");
+                            return;
+                            //should redirect away
+                        }
                     }
-
-
-                
                 }
             }
         updateEntities(currentTime);     
@@ -97,6 +107,8 @@ var Engine = (function(){
         ctx.font="20px Georgia";
 
         ctx.fillText("Lives: " + game.lives, 25, 20);
+        ctx.fillText("Level: " + game.level, 800, 20);
+        ctx.fillText("HighScore: " + highscore, 400, 20);
 
         renderEntities()
     }
@@ -120,10 +132,13 @@ var Engine = (function(){
     resources.load([
         'images/grass.png',
         'images/water.png',
-        'images/player.png',
-        'images/enemy.png',
-        'images/enemyAttack.png',
-        'images/playerAttack.png'
+        'images/playerLeft.png',
+        'images/playerRight.png',
+        'images/enemyLeft.png',
+        'images/enemyRight.png',
+        'images/playerAttackLeft.png',
+        'images/playerAttackRight.png'
+
 
     ]);
 
