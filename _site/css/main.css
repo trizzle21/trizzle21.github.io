@@ -257,12 +257,27 @@ nav {
   margin: 20px 30px 30px 40px;
   font-family: "San Francisco Bold", "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
 
-.page-titles {
-  font-size: 100px; }
+@media all {
+  .page-titles {
+    font-size: 90px;
+    line-height: 110px; }
 
-.page-sublink {
-  font-size: 35px; }
+  .page-sublink {
+    font-size: 35px; } }
+@media all and (max-width: 650px) {
+  .page-titles {
+    font-size: 60px;
+    line-height: 80px; }
 
+  .page-sublink {
+    font-size: 20px; } }
+@media all and (max-width: 460px) {
+  .page-titles {
+    font-size: 42px;
+    line-height: 60px; }
+
+  .page-sublink {
+    font-size: 15px; } }
 .contain {
   margin: 20px 30px 30px 40px; }
 

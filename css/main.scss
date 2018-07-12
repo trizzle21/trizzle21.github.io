@@ -124,6 +124,7 @@ h1 {
 
 }
 
+
 nav {
     display: inline-block;
     vertical-align: baseline;
@@ -135,6 +136,8 @@ nav {
     text-align: right;
     display: inline-block;
 }
+
+
 .head-left {
     text-align: left;
     display: inline-block;
@@ -148,20 +151,49 @@ nav {
 
 
 
-
 .page-links {
     margin: 20px 30px 30px 40px;
     font-family: $base-font-family;
 }
 
-.page-titles {
-    
-    font-size: 100px;
+@media all {
+    .page-titles {
+        font-size: 90px;
+        line-height: 110px;
+    }
+    .page-sublink {
+        font-size: 35px;
+    }
+
 }
 
-.page-sublink {
-    font-size: 35px;
+@media all and (max-width:650px){
+    .page-titles {
+        font-size: 60px;
+        line-height: 80px;
+
+    }
+    .page-sublink {
+        font-size: 20px;
+    }
+
 }
+
+@media all and (max-width:460px){
+    .page-titles {
+        font-size: 42px;
+        line-height: 60px;
+
+    }
+    .page-sublink {
+        font-size: 15px;
+    }
+
+
+}
+
+
+
 
 
 .contain {
@@ -175,6 +207,7 @@ div.row {
     margin: 40px auto;
     vertical-align:top;
 }
+
 
 div.split {
     width: 1%;
@@ -194,21 +227,25 @@ div.text_description {
     vertical-align:top;
 }
 
+
 .project_image {
     margin: 40px auto 0 30px;
     width: 75%;
     height: 200px;
 }
 
+
 .profile_section {
     display:block;
 }
+
 
 #profile_p {
     margin-left: 20px;
     float:left;
     display:inline-block; 
 }
+
 
 #profile_pic{
     padding: 0 20px 5px 0;
@@ -226,9 +263,6 @@ div.text_description {
     height: 50px;
     width:75%;
 }
-
-
-
 
 
 .profile_text {
