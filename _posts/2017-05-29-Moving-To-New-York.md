@@ -1,12 +1,18 @@
 ---
 layout: post
 author: "Tyler"
+excerpt_separator: <!--more-->
 ---
+
 I finally did it! I made the move from Southern California to New York! 
 
 It was not an easy process but oh did I learn so much along the way. 
 
-The first step was to spend a week in an airbnb while I got used to the climate, found an apartment, and get to work. My very first night, I had to wait an hour and a half for my airbnb host to let me in. The weather in early March was absolutely freezing, so my first experience as a future resident of New York was absolutely terrible. My hands have had frostbite before (it gets very very very cold at 6am in the valley cycling path near my parent's house). So I got the wonderful residual numbness come back. After a very grumpy amount of texting I got into the airbnb, which I'm pretty sure now the whole airbnb was illegal. Airbnb has a tricky relationship with New York and most (all) the apartments I viewed wrote in eviction clauses for airbnb hosting. 
+The first step was to spend a week in an airbnb while I got used to the climate, found an apartment, and get to work. My very first night, I had to wait an hour and a half for my airbnb host to let me in. The weather in early March was absolutely freezing, so my first experience as a future resident of New York was absolutely terrible. My hands have had frostbite before (it gets very very very cold at 6am in the valley cycling path near my parent's house). So I got the wonderful residual numbness come back. After a very grumpy amount of texting I got into the airbnb, which I'm pretty sure now the whole airbnb was illegal. Airbnb has a tricky relationship with New York and most (all) the apartments I viewed wrote in eviction clauses for airbnb hosting.
+
+![My Flight!]({{ "/assets/images/blog/sna-route.png" | absolute_url }})
+
+<!--more-->
 
 Due to my works wonderful flexible hours I was able to disappear frequently to take looks at apartments so that was nice. I found borrowing a citi bike card was a life saver as I was able to get from apartment showing to apartment showing without much hassel besides occassionally stopping to check google maps. Thinking Brooklyn would be cheaper, I initally started my search there, but I ended my search in Manhattan in the East Village in a small studio! 
 

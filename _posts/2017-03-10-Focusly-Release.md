@@ -1,10 +1,12 @@
 ---
 layout: post
 author: "Tyler"
+excerpt_separator: <!--more-->
 ---
-It's 3 months in and I've finally released Focusly! Focusly is a online tabata timer that integrates with Spotify that I vowed to finish in ~3 months in my New Years resolution. This post is going to be an update on that as well as introductin my new project.
+It's 3 months in and I've finally released Focusly! Focusly is a online tabata timer that integrates with Spotify that I vowed to finish in ~3 months in my New Years resolution. This post is going to be an update on that as well as introduction to my new project.
 
 Focusly is not an overly sophisticated tool built on node.js (express.js), redux, redux router, react sound and react. Express.js handles the oAuth2 authentication tokens as the middle man between the client and the user while Redux  and React handle the client side state and views. The way it works is that the user chooses the number of cycles and two playlists for both their work and rest sessions. The user than is guided to page which utilizes a timer and a Spotify play button in the sidebar. When the timer ends, a subtle alarm is sounded and the user is prompted to start change playlists.
+<!--more-->
 
 One frustrating part of this project has been dealing with Spotify's play button. It doesn't listen to events, so only user actions can trigger the change of playlists. This caused me to pivot and use an sweet alarm instead, since I can't the control iFrame. It's obviously a pretty large flaw, and I'm anticipating Spotify to change this in the future which is why I'm labeling the project as in beta, since I'm at the will of Spotify. 
 

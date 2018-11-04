@@ -1,20 +1,49 @@
 ---
 layout: default
-permalink:blog/
+title: Blog
 ---
+<link rel="stylesheet" href="style.css">
 
-<div class ="contain">
+<div class="grid-container">
 
-    <h1>Stuff I talk about</h1>
+  <div class='col-1'>
+    <h2>Tyler Ross</h2>
+    <p>Here's things I like to talk about</p>
+  </div>
+
+  <div class='col-4'>
         
-    <ul>
-        {% for post in site.posts %}
-        <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-</ul>
+        <ul>
+            {% for post in site.posts %}
+            <div>
+                <h2>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
 
+                </h2>
+            <span class="date">{{ post.date | date: '%B %d, %Y'}}</span>
+
+                <p>{{ post.excerpt }}</p>
+                <b><a href="{{ post.url }}">Continue..</a></b>
+            </div>
+            {% endfor %}
+      </ul>
+    
+
+
+  </div>
+
+    <div class='col-1 latest'>
+        <h3 class="text-center">Latest Posts</h3>
+        {% for post in site.posts limit:3  %}
+            <ul>
+                <p>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <div class="date">{{ post.date | date: '%B %d, %Y'}}</div>
+                </p>
+            </ul>
+
+        {% endfor %}
+  </div>
 
 
     

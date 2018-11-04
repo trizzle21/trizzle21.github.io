@@ -1,10 +1,12 @@
 ---
 layout: post
 author: "Tyler"
+excerpt_separator: <!--more-->
 ---
 It's 2017! Guess it's time to make some resolutions some of which I'll never accomplish like all good New Years Resolutioners. However, one resolution I think I totally can resolve is spending an hour a day on personal projects. I think an hour a day (at least) is an excellent way to get my other resolution is to finish and ship all my personal projects. 
 
 The first project I'd like to finish is my online tabata timer that integrates with Spotify. I'm making use of material design and react.js to make a beautiful UI/UX that lets users play music along with their work projects without having an annoying beeper remind you to rest. Instead, a change of music moves you to the next session. Ok so I lied a little bit, I won't be working for a whole hour a day, rather two 25 minute periods with two 5 minute breaks. Still as long as I get the work done and I don't get distracted I'll call it a W. I want to finish it in 3 months.
+<!--more-->
 
 The other project I have steaming is afterHacks which allows users to demonstrate their hacks online and gets github stars or pull requests. This idea isn't planned out very well. I won't be devasted if this idea is scrapped even though I spent 5 bucks on a domain name to motivate myself. Whelp, oh well. 
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 author: "Tyler"
+excerpt_separator: <!--more-->
 ---
 I feel like it's kind of corny to make my first blog post a review of the technology I'm using to make said blog but I don't really care. The first think I like about Jeykll is how easy it is to set up. I will say however, I already had the developer environment set up so all I had to do set up a git repo and type in the command
 
@@ -9,6 +10,7 @@ bundle exec jekyll new . --force
 {% endhighlight %}
 
 and I was off to the races. Note, this may be hard if you've never used gem or another package manager. Furthermore, everything is already cleanly packaged with sass from the get go and comes with everything you need to build a site in literally seconds. I love the fact that I can prototype my site in another branch, test it with one command,
+<!--more-->
 
 {% highlight ruby %}
 bundle exec jekyll serve

@@ -1,0 +1,17 @@
+p {
+    font-size: 20px !important;
+}
+
+@media only screen and (max-width: 500px) {
+    .biography {
+        text-align: center;
+    }
+    .latest {
+        visibility: hidden;
+    }
+
+}
+
+.pagination {
+    text-align: center;
+}

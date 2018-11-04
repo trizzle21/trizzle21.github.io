@@ -7,13 +7,13 @@ layout: default
 
     <h1 class="post-title" itemprop="name headline" style="margin-left:10px;">{{ page.title | escape }}</h1>
 
-<div class ="contain">    
-        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <div class ="contain">    
+            <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
 
-    {{ content }}
-  
-<h3><a href="/Blog">< Back</a></h3>    
-</div>
+        {{ content }}
+      
+    <h3><a href="/Blog">< Back</a></h3>    
+    </div>
 
     
     

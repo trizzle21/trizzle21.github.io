@@ -25,6 +25,7 @@ baseurl: ""
 url: "tylerdross.com" # the base hostname & protocol for your site
 twitter_username: ermahgerdbikes
 github_username:  trizzle21
+paginate: 5
 
 # Build settings
 markdown: kramdown

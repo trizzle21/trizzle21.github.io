@@ -278,6 +278,9 @@ nav {
 
   .page-sublink {
     font-size: 15px; } }
+.text-center {
+  text-align: center; }
+
 .contain {
   margin: 20px 30px 30px 40px; }
 
@@ -335,8 +338,3 @@ div.text_description {
   width: 30%;
   display: inline-block;
   margin: 20px 30px 0 0; }
-
-#github-widget {
-  width: 60%;
-  display: inline-block;
-  padding-top: -50px; }

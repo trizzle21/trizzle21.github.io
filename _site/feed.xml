@@ -6,8 +6,8 @@
 </description>
     <link>tylerdross.com/</link>
     <atom:link href="tylerdross.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Jul 2018 01:39:48 -0400</pubDate>
-    <lastBuildDate>Fri, 13 Jul 2018 01:39:48 -0400</lastBuildDate>
+    <pubDate>Sun, 04 Nov 2018 00:06:39 -0400</pubDate>
+    <lastBuildDate>Sun, 04 Nov 2018 00:06:39 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -17,6 +17,10 @@
 &lt;p&gt;It was not an easy process but oh did I learn so much along the way.&lt;/p&gt;
 
 &lt;p&gt;The first step was to spend a week in an airbnb while I got used to the climate, found an apartment, and get to work. My very first night, I had to wait an hour and a half for my airbnb host to let me in. The weather in early March was absolutely freezing, so my first experience as a future resident of New York was absolutely terrible. My hands have had frostbite before (it gets very very very cold at 6am in the valley cycling path near my parent’s house). So I got the wonderful residual numbness come back. After a very grumpy amount of texting I got into the airbnb, which I’m pretty sure now the whole airbnb was illegal. Airbnb has a tricky relationship with New York and most (all) the apartments I viewed wrote in eviction clauses for airbnb hosting.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/sna-route.png&quot; alt=&quot;My Flight!&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;Due to my works wonderful flexible hours I was able to disappear frequently to take looks at apartments so that was nice. I found borrowing a citi bike card was a life saver as I was able to get from apartment showing to apartment showing without much hassel besides occassionally stopping to check google maps. Thinking Brooklyn would be cheaper, I initally started my search there, but I ended my search in Manhattan in the East Village in a small studio!&lt;/p&gt;
 
@@ -35,9 +39,10 @@
     
       <item>
         <title>Focusly Release</title>
-        <description>&lt;p&gt;It’s 3 months in and I’ve finally released Focusly! Focusly is a online tabata timer that integrates with Spotify that I vowed to finish in ~3 months in my New Years resolution. This post is going to be an update on that as well as introductin my new project.&lt;/p&gt;
+        <description>&lt;p&gt;It’s 3 months in and I’ve finally released Focusly! Focusly is a online tabata timer that integrates with Spotify that I vowed to finish in ~3 months in my New Years resolution. This post is going to be an update on that as well as introduction to my new project.&lt;/p&gt;
 
-&lt;p&gt;Focusly is not an overly sophisticated tool built on node.js (express.js), redux, redux router, react sound and react. Express.js handles the oAuth2 authentication tokens as the middle man between the client and the user while Redux  and React handle the client side state and views. The way it works is that the user chooses the number of cycles and two playlists for both their work and rest sessions. The user than is guided to page which utilizes a timer and a Spotify play button in the sidebar. When the timer ends, a subtle alarm is sounded and the user is prompted to start change playlists.&lt;/p&gt;
+&lt;p&gt;Focusly is not an overly sophisticated tool built on node.js (express.js), redux, redux router, react sound and react. Express.js handles the oAuth2 authentication tokens as the middle man between the client and the user while Redux  and React handle the client side state and views. The way it works is that the user chooses the number of cycles and two playlists for both their work and rest sessions. The user than is guided to page which utilizes a timer and a Spotify play button in the sidebar. When the timer ends, a subtle alarm is sounded and the user is prompted to start change playlists.
+&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;One frustrating part of this project has been dealing with Spotify’s play button. It doesn’t listen to events, so only user actions can trigger the change of playlists. This caused me to pivot and use an sweet alarm instead, since I can’t the control iFrame. It’s obviously a pretty large flaw, and I’m anticipating Spotify to change this in the future which is why I’m labeling the project as in beta, since I’m at the will of Spotify.&lt;/p&gt;
 
@@ -62,7 +67,8 @@
         <title>A Commit A Day Keeps The Doc Away</title>
         <description>&lt;p&gt;It’s 2017! Guess it’s time to make some resolutions some of which I’ll never accomplish like all good New Years Resolutioners. However, one resolution I think I totally can resolve is spending an hour a day on personal projects. I think an hour a day (at least) is an excellent way to get my other resolution is to finish and ship all my personal projects.&lt;/p&gt;
 
-&lt;p&gt;The first project I’d like to finish is my online tabata timer that integrates with Spotify. I’m making use of material design and react.js to make a beautiful UI/UX that lets users play music along with their work projects without having an annoying beeper remind you to rest. Instead, a change of music moves you to the next session. Ok so I lied a little bit, I won’t be working for a whole hour a day, rather two 25 minute periods with two 5 minute breaks. Still as long as I get the work done and I don’t get distracted I’ll call it a W. I want to finish it in 3 months.&lt;/p&gt;
+&lt;p&gt;The first project I’d like to finish is my online tabata timer that integrates with Spotify. I’m making use of material design and react.js to make a beautiful UI/UX that lets users play music along with their work projects without having an annoying beeper remind you to rest. Instead, a change of music moves you to the next session. Ok so I lied a little bit, I won’t be working for a whole hour a day, rather two 25 minute periods with two 5 minute breaks. Still as long as I get the work done and I don’t get distracted I’ll call it a W. I want to finish it in 3 months.
+&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;The other project I have steaming is afterHacks which allows users to demonstrate their hacks online and gets github stars or pull requests. This idea isn’t planned out very well. I won’t be devasted if this idea is scrapped even though I spent 5 bucks on a domain name to motivate myself. Whelp, oh well.&lt;/p&gt;
 
@@ -89,7 +95,8 @@
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;force&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;and I was off to the races. Note, this may be hard if you’ve never used gem or another package manager. Furthermore, everything is already cleanly packaged with sass from the get go and comes with everything you need to build a site in literally seconds. I love the fact that I can prototype my site in another branch, test it with one command,&lt;/p&gt;
+&lt;p&gt;and I was off to the races. Note, this may be hard if you’ve never used gem or another package manager. Furthermore, everything is already cleanly packaged with sass from the get go and comes with everything you need to build a site in literally seconds. I love the fact that I can prototype my site in another branch, test it with one command,
+&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;serve&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
