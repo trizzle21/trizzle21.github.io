@@ -13,9 +13,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/main.css" | prepend: full_base_url }}">
-  <link rel="stylesheet" href="/css/grid.css" | prepend: full_base_url }}">
-  <link rel="stylesheet" href="/css/body.css" | prepend: full_base_url }}">
+  <link rel="stylesheet" href="/assets/css/main.css" | prepend: full_base_url }}">
   <link rel='shortcut icon' href='/assets/favicon.ico' type='image/x-icon'/ >
   <link rel="canonical" href="tylerdross.com/">
   <link rel="alternate" type="application/rss+xml" title="tylerdross" href="tylerdross.com/feed.xml">
@@ -28,45 +26,93 @@
 
 
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="page-links" id ="full">
-    <div class="page-links page-titles" id="About"><a href="purpose">Purpose
-    
-    
-    <span class="page-sublink" id="who">Who I am.</span>
-    </a>
-    </div>
-    
-    
-    <div class="page-links page-titles" id="Work"><a href="projects">Work
-    
-    <span class="page-sublink" id="what">What I do.</span>
-    </a>
-    </div>
-    
-    
-    <div class="page-links page-titles" id="Blog"><a href="blog">Blog
-    
-    <span class="page-sublink" id="talk">Stuff I talk about.</span>
-        </a>
-    </div>
-    
-    
-    <div class="page-links page-titles" id="Contact"><a href="contact-me/">Contact</a>
-    
-    <span class="page-sublink" id='reach'>Talk to me.</span>
-        </a>
-    </div>
+      <div class="wrapper" id='main-landing'>
 
+        <header>
+    <a class="hamburger" onclick="openNav()">
+        <img src="assets/images/hamburger.png" >
+
+    </a>
+    <div class="top-content">
+
+
+<div class="header-div">
+
+    <ul class="left-show menu-items">
+      <li class='header-button'><a href="/purpose">Purpose</a></li>
+      <li class='header-button'><a href="/projects">Work</a></li>
+    </ul>
+   
+
+    <a href="#" class='head-logo'>
+      <!-- <div href="/"><a>Tyler D Ross</a></div> -->
+    </a>
+
+    <ul class="right-show menu-items">
+      <li class='header-button'><a href="/blog">Blog</a></li>
+      <li class='header-button'><a href="/contact-me">Contact Me</a></li>
+    </ul>
+
+</div>
+
+
+</header>
+        <div id="main-sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/purpose">Purpose</a>
+        <a href="/projects" onclick="closeNav()">Work</a>        
+        <a href="/blog" onclick="closeNav()">Blog</a>
+        <a href="/contact-me" onclick="closeNav()">Contact Me</a>
+</div>
+    
+    
+
+          <div class='main-text'>
+    <h1>Tyler D Ross</h1>
+    <h3>An Interactive Resume</h3>
+  </div>
 
 
 </div>
+
+<div class="grid-container">
+
+    <div class="col-6">
+      <div class="col-1"></div>
+        <div class="col-4">
+          <h3 style="font-size:50px; text-align: center">Purpose</h3>
+          <div class="col-4">
+            <img id="profile_pic" src="/assets/images/webprofile.jpg">
+          </div>
+          <div class="col-2"> aks;dlfads;fjkasdjkl </div>
+        
+          </div>
+      <div class="col-1"></div>
+    </div>
+    
+    <div class="col-6">
+        <div class="col-1"></div>
+          <div class="col-4">
+            <h3 style="font-size:50px; text-align: center">Expertise</h3>
+            <div class="col-4">
+              <img id="profile_pic" src="/assets/images/webprofile.jpg">
+            </div>
+            <div class="col-2"> aks;dlfads;fjkasdjkl </div>
+          
+            </div>
+        <div class="col-1"></div>
+      </div>
+  
+
+  </div>
+
+
+
       </div>
     </main>
 
+    <script type="text/javascript" src="../assets/js/landing.js"></script>
 
-    <script src="assets/js/landing.js"></script>
-      
   </body>
 
 </html>

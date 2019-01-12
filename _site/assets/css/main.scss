@@ -1,0 +1,30 @@
+// Minima also includes a mixin for defining media queries.
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+@import "BaseCase";
+
+.vertical_line {
+    border-left:thin solid #111;
+    height: 15px;
+    display: inline-block
+}
+
+.text_footer {
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+
+@import "slide";
+@import "purpose";
+@import "grid";
+@import "landing";
+@import "header";
+@import "sidenav";

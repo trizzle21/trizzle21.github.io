@@ -7,14 +7,17 @@
 
 
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+      <div class="wrapper" id='main-landing'>
+
+        {% include header.html %}
+        {% include sidenav.html %}
+
         {{ content }}
       </div>
     </main>
 
+    <script type="text/javascript" src="../assets/js/landing.js"></script>
 
-    <script src="assets/js/landing.js"></script>
-      
   </body>
 
 </html>

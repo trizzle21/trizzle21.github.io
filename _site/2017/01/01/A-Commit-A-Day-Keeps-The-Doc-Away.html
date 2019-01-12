@@ -13,9 +13,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/main.css" | prepend: full_base_url }}">
-  <link rel="stylesheet" href="/css/grid.css" | prepend: full_base_url }}">
-  <link rel="stylesheet" href="/css/body.css" | prepend: full_base_url }}">
+  <link rel="stylesheet" href="/assets/css/main.css" | prepend: full_base_url }}">
   <link rel='shortcut icon' href='/assets/favicon.ico' type='image/x-icon'/ >
   <link rel="canonical" href="tylerdross.com/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html">
   <link rel="alternate" type="application/rss+xml" title="tylerdross" href="tylerdross.com/feed.xml">
@@ -27,23 +25,34 @@
   <body>
 
     <header>
-    
-    <h1 id="back"><a href="/">Tyler D. Ross</a></h1>
+    <a class="hamburger" onclick="openNav()">
+        <img src="assets/images/hamburger.png" >
+
+    </a>
+    <div class="top-content">
 
 
-<div class="navwrap">
-    <nav>
-        <a href="/purpose">About</a>
-        <a href="/projects">Work</a>
-        <a href="/blog">Blog</a>
-        <a href="/contact-me">Contact Me</a>
-    </nav>
+<div class="header-div">
+
+    <ul class="left-show menu-items">
+      <li class='header-button'><a href="/purpose">Purpose</a></li>
+      <li class='header-button'><a href="/projects">Work</a></li>
+    </ul>
+   
+
+    <a href="#" class='head-logo'>
+      <!-- <div href="/"><a>Tyler D Ross</a></div> -->
+    </a>
+
+    <ul class="right-show menu-items">
+      <li class='header-button'><a href="/blog">Blog</a></li>
+      <li class='header-button'><a href="/contact-me">Contact Me</a></li>
+    </ul>
+
 </div>
 
-<hr>
 
 </header>
-
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
