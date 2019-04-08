@@ -6,7 +6,7 @@
         url: "https://k7maig28k2.execute-api.us-east-1.amazonaws.com/prod/contact-me",
         init : function(){
 			this.cacheDOM();
-			this.bindEvents();
+            this.bindEvents();
     	},
         cacheDOM: function(){
             this.$contactForm = $("#contact-form");

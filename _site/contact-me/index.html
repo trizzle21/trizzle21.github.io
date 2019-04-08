@@ -52,7 +52,8 @@
   
   <div class="contact-form-box">
     <div class="inline-box">
-        <div class="contact-box">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<div class="contact-box">
     <h1>Talk to me</h1> 
     <p>Hello Internet Denizens, I'm happy to answer any questions or network. Feel free to reach out.</p>
 
@@ -78,11 +79,9 @@
             <h4>How can we help you?</h4>
             <textarea class="form-field form-text-area"  id="description-input" rows="3" placeholder="Enter your message…" class="form-control"></textarea><br/>
         </div>
-        
-        <div class="g-recaptcha" data-sitekey="6Lc7cVMUAAAAAM1yxf64wrmO8gvi8A1oQ_ead1ys" class="form-control" style="width:100%;"></div>
 
         <div style="display: flex;">
-            <button type="button" id="contact-submit" class="submit inline-form">Submit</button>
+            <button data-sitekey="6Lc7cVMUAAAAAM1yxf64wrmO8gvi8A1oQ_ead1ys" type="button" id="contact-submit" class="submit inline-form g-recaptcha">Submit</button>
             <p id="success" style="display:none; margin-left: 30px" class="inline-form">Success!</p>
         </div>
         </form>
