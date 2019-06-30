@@ -17,7 +17,6 @@
 
     	},
         cacheDOM: function(){
-        	
             this.$bodyTag = $('body');
             this.$slide = $('.slide');
         	this.$upArrow = $('.up-arrow');
@@ -29,7 +28,6 @@
 
         },
         bindEvents: function(){
-            
             this.$downArrow.on('click', this.$arrow, this.changeSlide.bind(this, 'down'));
 			//this.$bodyTag.on('scroll', this.$arrow, this.changeSlide.bind(this, 'down'));
             // this.$bodyTag.on('mousewheel', this.detectScroll.bind(this));

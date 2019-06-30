@@ -6,8 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
-
   <title>A Honest Review Of Jeykll</title>
   <meta name="description" content="I feel like it’s kind of corny to make my first blog post a review of the technology I’m using to make said blog but I don’t really care. The first think I l...">
 
@@ -19,29 +17,28 @@
   <link rel='shortcut icon' href='/assets/favicon.ico' type='image/x-icon'/ >
   <link rel="canonical" href="tylerdross.com/2016/09/19/A-Honest-Review-of-Jeykll.html">
   <link rel="alternate" type="application/rss+xml" title="tylerdross" href="tylerdross.com/feed.xml">
+  <link rel="stylesheet" disabled=false title="light_theme" href="/css/light-theme.css" | prepend: full_base_url }}">
+  <link rel="stylesheet" disabled=true title="dark_theme" href="/css/dark-theme.css" | prepend: full_base_url }}">
+
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  
+  <!-- <script src="/assets/js/jquery.js"></script> -->
+
   
 </head>
 
   <body>
 
     <header>
-    
     <h1 id="back"><a href="/">Home</a></h1>
-
-
-<div class="navwrap">
-    <nav>
-        <a href="/purpose">About</a>
-        <a href="/projects">Work</a>
-        <a href="/blog">Blog</a>
-        <a href="/contact-me">Contact Me</a>
-    </nav>
-</div>
-
-<hr>
-
+    <div class="navwrap">
+        <nav>
+            <a href="/purpose">About</a>
+            <a href="/projects">Work</a>
+            <a href="/blog">Blog</a>
+            <a href="/contact-me">Contact Me</a>
+        </nav>
+    </div>
+    <hr>
 </header>
 
 
@@ -51,9 +48,19 @@
 
     <h1 class="post-title" itemprop="name headline" style="margin-left:10px;">A Honest Review Of Jeykll</h1>
 
-<div class ="contain">    
-        <p class="post-meta"><time datetime="2016-09-19T00:00:00-04:00" itemprop="datePublished">Sep 19, 2016</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Tyler</span></span></p>
-
+  <div class ="contain">    
+    <p class="post-meta">
+      <time datetime="2016-09-19T00:00:00-04:00" itemprop="datePublished">
+        Sep 19, 2016
+      </time>
+       • 
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">
+            Tyler
+          </span>
+        </span>
+      
+    </p>
     <p>I feel like it’s kind of corny to make my first blog post a review of the technology I’m using to make said blog but I don’t really care. The first think I like about Jeykll is how easy it is to set up. I will say however, I already had the developer environment set up so all I had to do set up a git repo and type in the command</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="kp">new</span> <span class="p">.</span> <span class="nf">-</span><span class="o">-</span><span class="n">force</span></code></pre></figure>
@@ -75,12 +82,9 @@
 <p>In the end, I feel like my problems are a little overembellished. It’s a very fast way to build static websites and deploy them rapidly. It includes lots of neat little features and has a very simple templating system. The documentation is clear and very well written. It hasn’t a very clean step by step process on each aspect of the section. It’s so much nicer than my original site which was plain html and css. I honestly can’t imagine using anything else and github-pages is totally free to host. Despite it’s slight learning curve and annoying default file system, I think everyone should use this as their personal site generator especially if they don’t need a backend or click and drag site generators.</p>
 
 
-  
-<h3><a href="/Blog">< Back</a></h3>    
-</div>
+    <h3><a href="/Blog">< Back</a></h3>    
+  </div>
 
-    
-    
   
 </article>
 
@@ -88,6 +92,7 @@
     </main>
 
     <br><br><br>
+
 <div class="footer" style="text-align:center">
     <hr>
     <div class="text_footer">copyleft 2016</div> 
@@ -97,7 +102,11 @@
     <div class="text_footer">Tyler Ross</div>
     <div class="veritical_line"></div> 
     <div class="text_footer"><a href="mailto:tdross21@gmail.com">Contact</a></div>
+    <div class="veritical_line"></div> 
+    <div class="text_footer dark-mode"><div id="dark-mode">Dark Mode</div></div>
 </div>
+<script src="/assets/js/darkmode.js"></script>
+
 
   </body>
 
