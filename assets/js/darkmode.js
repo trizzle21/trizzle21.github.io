@@ -73,7 +73,7 @@
             d.setTime(d.getTime() + (2*24*60*60*1000));
             var expires = "expires="+ d.toUTCString();
             document.cookie = cookie_name + "=" + cookie_value + ";" + expires + ";path=/";          
-        }
+        },
     }
     darkMode.init()
 })();
