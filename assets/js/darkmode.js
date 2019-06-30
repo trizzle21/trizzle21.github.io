@@ -13,15 +13,11 @@
             this.$darkModeClass = $(".dark-mode");
 
             this.$darkModeTag = $("#dark-mode");
-            console.log(this.$darkModeClass);
-            // this.$darkThemeTag = $('#dark_theme');
-            // this.$lightThemeTag = $('#light_theme');
             this.$darkThemeTag = $("head").find('link[title="dark_theme"]')
             this.$lightThemeTag = $("head").find('link[title="light_theme"]')
         },
         bindEvents: function() {
-                // this.$darkModeClass.on("click", this.$darkModeTag, this.darkModeSwitch.bind(this));
-                this.$darkModeClass.on("click", this.$darkModeTag, this.darkModeSwitch.bind(this));
+            this.$darkModeClass.on("click", this.$darkModeTag, this.darkModeSwitch.bind(this));
         },
         initialize: function() {
             const cookie = this.getCookie(this.cookieName)
