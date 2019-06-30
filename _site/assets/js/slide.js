@@ -80,8 +80,6 @@
             next_slide.addClass('active');
 
         }
-
-
     }
   	slide.init()
   })();

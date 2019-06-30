@@ -1,6 +1,7 @@
 
 (function(){
     var launch = {
+        cookieName: "tylerdross",
         init: function(){
 			this.cacheDOM();
 			this.bindEvents();
@@ -36,9 +37,11 @@
         },
         show : function(jqloc){
             jqloc.toggle();
+            const highlightValue = this.getHighlightValue();
+            // console.log(highlightValue);
             $.each([this.$sub_about, this.$sub_work, this.$sub_blog, this.$sub_contact], function( index, value ) {
                 if(jqloc == value){
-                    value.closest('div').css('color','black')
+                    value.closest('div').css('color', highlightValue)
                 } else {
                     value.closest('div').css('color','grey')
                 }
@@ -46,7 +49,32 @@
             });
 
 
-        }
+        },
+        getHighlightValue: function() {
+            const cookieValue = this.getCookie(this.cookieName);
+            if (cookieValue == "" || cookieValue == "LIGHT") {
+                return "black";
+            } else {
+                return "white";
+            }
+
+        },
+        getCookie: function(cookie_name) {
+            var name = cookie_name + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for(var i = 0; i <ca.length; i++) {
+              var c = ca[i];
+              while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+              }
+              if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+              }
+            }
+            return ""; 
+        },
+
         
         
     }
