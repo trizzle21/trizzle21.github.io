@@ -13,25 +13,31 @@
             this.$darkModeClass = $(".dark-mode");
 
             this.$darkModeTag = $("#dark-mode");
-            this.$darkThemeTag = $("head").find('link[title="dark_theme"]')
-            this.$lightThemeTag = $("head").find('link[title="light_theme"]')
+            this.$darkThemeTag = $("head").find('link[title="dark_theme"]');
+            this.$lightThemeTag = $("head").find('link[title="light_theme"]');
+
+            this.$personalSite = $('#personalsitelogo');
+            this.$stirLogo = $('#stir-logo');
+            this.$foxeryLogo = $('#foxery-logo');
+            this.$focuslyLogo = $('#focusly-logo');
+            this.$logos = [this.$personalSite, this.$stirLogo, this.$foxeryLogo, this.$focuslyLogo]
         },
         bindEvents: function() {
-            this.$darkModeClass.on("click", this.$darkModeTag, this.darkModeSwitch.bind(this));
+            this.$darkModeTag.on("click", this.$darkModeTag, this.darkModeSwitch.bind(this));
         },
         initialize: function() {
             const cookie = this.getCookie(this.cookieName)
-            console.log(cookie)
             if (cookie == "") {
                 this.setCookie(this.cookieName, "LIGHT")
             } else {
                 if (cookie == "DARK") {
+                    this.lightThemeOn = false;
                     const onTheme = this.$darkThemeTag;
                     const offTheme = this.$lightThemeTag;
-        
+                    this.flipImage();
+                    this.flip_label()
                     onTheme.attr('disabled', false);
                     offTheme.attr('disabled', true);
-                    this.lightThemeOn = !false;
                 } 
             }
         },
@@ -39,12 +45,23 @@
             const onTheme = this.lightThemeOn ? this.$lightThemeTag : this.$darkThemeTag;
             const offTheme = this.lightThemeOn ? this.$darkThemeTag : this.$lightThemeTag;
             const cookie_value = this.lightThemeOn ? "LIGHT" : "DARK";
-
+            this.flipImage();
+            this.flip_label()
             onTheme.attr('disabled', false);
             offTheme.attr('disabled', true);
             this.lightThemeOn = !this.lightThemeOn;
             
             this.setCookie(this.cookieName, cookie_value)
+        },
+        flipImage: function() {
+            const flipValue = this.lightThemeOn ? "0" : "100";
+            for(image of this.$logos) {
+                image.css("filter", "invert(" + flipValue + "%)");
+            }
+        },
+        flip_label: function() {
+            const textValue = this.lightThemeOn ? "Dark Mode" : "Light Mode";
+            this.$darkModeTag.text(textValue)
         },
         getCookie: function(cookie_name) {
             var name = cookie_name + "=";
