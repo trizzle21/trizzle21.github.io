@@ -5,7 +5,6 @@
         lightThemeOn: true,
         cookieName: "tylerdross",
         init: function() {
-            console.log('abcdedf');
 			this.cacheDOM();
             this.bindEvents();
             this.initialize();
@@ -31,8 +30,6 @@
                 this.setCookie(this.cookieName, "LIGHT")
             } else {
                 if (cookie == "DARK") {
-                    console.log("should be dark")
-
                     const onTheme = this.$darkThemeTag;
                     const offTheme = this.$lightThemeTag;
         
