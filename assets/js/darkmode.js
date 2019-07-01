@@ -2,7 +2,7 @@
 
 (function() {
     var darkMode = {
-        lightThemeOn: true,
+        lightThemeOn: false,
         cookieName: "tylerdross",
         init: function() {
 			this.cacheDOM();
@@ -42,6 +42,7 @@
             }
         },
         darkModeSwitch: function() {
+            console.log("ASDFAf")
             const onTheme = this.lightThemeOn ? this.$lightThemeTag : this.$darkThemeTag;
             const offTheme = this.lightThemeOn ? this.$darkThemeTag : this.$lightThemeTag;
             const cookie_value = this.lightThemeOn ? "LIGHT" : "DARK";
