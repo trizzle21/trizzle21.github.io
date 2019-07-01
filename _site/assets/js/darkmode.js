@@ -42,7 +42,6 @@
             }
         },
         darkModeSwitch: function() {
-            console.log("ASDFAf")
             const onTheme = this.lightThemeOn ? this.$lightThemeTag : this.$darkThemeTag;
             const offTheme = this.lightThemeOn ? this.$darkThemeTag : this.$lightThemeTag;
             const cookie_value = this.lightThemeOn ? "LIGHT" : "DARK";
