@@ -344,3 +344,6 @@ div.text_description {
 
 .landing-peel {
   float: right; }
+
+.blog-post {
+  list-style: none; }
