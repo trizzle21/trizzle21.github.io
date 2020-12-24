@@ -4,11 +4,11 @@
     <title>tylerdross</title>
     <description>This is my personal website and portfolio of all my work. 
 </description>
-    <link>tylerdross.com/</link>
-    <atom:link href="tylerdross.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 May 2020 00:39:16 -0400</pubDate>
-    <lastBuildDate>Fri, 15 May 2020 00:39:16 -0400</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 24 Dec 2020 00:38:34 -0500</pubDate>
+    <lastBuildDate>Thu, 24 Dec 2020 00:38:34 -0500</lastBuildDate>
+    <generator>Jekyll v3.6.3</generator>
     
       <item>
         <title>Moving To New York</title>
@@ -27,8 +27,8 @@
 &lt;p&gt;I have totally lost the time to keep up with a commit a day. I will try as hard as I can to continue it now, whether it be even css changes (I’m trying to learn design) or actual coding, but it’s hard when I have the pressure to build new features with aggressive deadlines at work. I assure you have kept up with commits, just not on my public commit log. I have so many new adventures a head of me and I’ll try to keep them here.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 May 2017 00:00:00 -0400</pubDate>
-        <link>tylerdross.com/2017/05/29/Moving-To-New-York.html</link>
-        <guid isPermaLink="true">tylerdross.com/2017/05/29/Moving-To-New-York.html</guid>
+        <link>http://localhost:4000/2017/05/29/Moving-To-New-York.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/29/Moving-To-New-York.html</guid>
         
         
       </item>
@@ -52,8 +52,8 @@
 &lt;p&gt;Woohoo to next adventures.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Mar 2017 00:00:00 -0500</pubDate>
-        <link>tylerdross.com/2017/03/10/Focusly-Release.html</link>
-        <guid isPermaLink="true">tylerdross.com/2017/03/10/Focusly-Release.html</guid>
+        <link>http://localhost:4000/2017/03/10/Focusly-Release.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/03/10/Focusly-Release.html</guid>
         
         
       </item>
@@ -77,8 +77,8 @@
 &lt;p&gt;Woah this is exciting! Happy New Years!!!&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
-        <link>tylerdross.com/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html</link>
-        <guid isPermaLink="true">tylerdross.com/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html</guid>
+        <link>http://localhost:4000/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html</guid>
         
         
       </item>
@@ -87,7 +87,7 @@
         <title>A Honest Review Of Jeykll</title>
         <description>&lt;p&gt;I feel like it’s kind of corny to make my first blog post a review of the technology I’m using to make said blog but I don’t really care. The first think I like about Jeykll is how easy it is to set up. I will say however, I already had the developer environment set up so all I had to do set up a git repo and type in the command&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;force&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;force&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;and I was off to the races. Note, this may be hard if you’ve never used gem or another package manager. Furthermore, everything is already cleanly packaged with sass from the get go and comes with everything you need to build a site in literally seconds. I love the fact that I can prototype my site in another branch, test it with one command,&lt;/p&gt;
 
@@ -107,8 +107,8 @@
 
 </description>
         <pubDate>Mon, 19 Sep 2016 00:00:00 -0400</pubDate>
-        <link>tylerdross.com/2016/09/19/A-Honest-Review-of-Jeykll.html</link>
-        <guid isPermaLink="true">tylerdross.com/2016/09/19/A-Honest-Review-of-Jeykll.html</guid>
+        <link>http://localhost:4000/2016/09/19/A-Honest-Review-of-Jeykll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/19/A-Honest-Review-of-Jeykll.html</guid>
         
         
       </item>

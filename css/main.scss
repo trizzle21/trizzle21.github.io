@@ -50,6 +50,8 @@ $on-laptop:        800px;
 //@import "minima";
 //@import "body";
 @import "slide";
+@import "grid";
+@import "cards";
 
 body {
     font-family: $base-font-family;
@@ -190,9 +192,6 @@ nav {
 }
 
 
-
-
-
 .contain {
     margin: 20px 30px 30px 40px;
 }
@@ -226,9 +225,12 @@ div.text_description {
 
 
 .project_image {
-    margin: 40px auto 0 30px;
+    // margin: 40px auto 0 30px;
     width: 75%;
     height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
