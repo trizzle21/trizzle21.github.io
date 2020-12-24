@@ -4,10 +4,10 @@
     <title>tylerdross</title>
     <description>This is my personal website and portfolio of all my work. 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Dec 2020 00:38:34 -0500</pubDate>
-    <lastBuildDate>Thu, 24 Dec 2020 00:38:34 -0500</lastBuildDate>
+    <link>tylerdross.com/</link>
+    <atom:link href="tylerdross.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 24 Dec 2020 00:41:11 -0500</pubDate>
+    <lastBuildDate>Thu, 24 Dec 2020 00:41:11 -0500</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -27,8 +27,8 @@
 &lt;p&gt;I have totally lost the time to keep up with a commit a day. I will try as hard as I can to continue it now, whether it be even css changes (I’m trying to learn design) or actual coding, but it’s hard when I have the pressure to build new features with aggressive deadlines at work. I assure you have kept up with commits, just not on my public commit log. I have so many new adventures a head of me and I’ll try to keep them here.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 May 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/05/29/Moving-To-New-York.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/29/Moving-To-New-York.html</guid>
+        <link>tylerdross.com/2017/05/29/Moving-To-New-York.html</link>
+        <guid isPermaLink="true">tylerdross.com/2017/05/29/Moving-To-New-York.html</guid>
         
         
       </item>
@@ -52,8 +52,8 @@
 &lt;p&gt;Woohoo to next adventures.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Mar 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/03/10/Focusly-Release.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/03/10/Focusly-Release.html</guid>
+        <link>tylerdross.com/2017/03/10/Focusly-Release.html</link>
+        <guid isPermaLink="true">tylerdross.com/2017/03/10/Focusly-Release.html</guid>
         
         
       </item>
@@ -77,8 +77,8 @@
 &lt;p&gt;Woah this is exciting! Happy New Years!!!&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html</guid>
+        <link>tylerdross.com/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html</link>
+        <guid isPermaLink="true">tylerdross.com/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html</guid>
         
         
       </item>
@@ -107,8 +107,8 @@
 
 </description>
         <pubDate>Mon, 19 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2016/09/19/A-Honest-Review-of-Jeykll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/09/19/A-Honest-Review-of-Jeykll.html</guid>
+        <link>tylerdross.com/2016/09/19/A-Honest-Review-of-Jeykll.html</link>
+        <guid isPermaLink="true">tylerdross.com/2016/09/19/A-Honest-Review-of-Jeykll.html</guid>
         
         
       </item>
