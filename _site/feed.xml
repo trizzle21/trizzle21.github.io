@@ -4,114 +4,11 @@
     <title>tylerdross</title>
     <description>This is my personal website and portfolio of all my work. 
 </description>
-    <link>tylerdross.com/</link>
-    <atom:link href="tylerdross.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Dec 2020 14:01:21 -0500</pubDate>
-    <lastBuildDate>Thu, 24 Dec 2020 14:01:21 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 12 Jan 2025 01:18:25 -0500</pubDate>
+    <lastBuildDate>Sun, 12 Jan 2025 01:18:25 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
-    
-      <item>
-        <title>Moving To New York</title>
-        <description>&lt;p&gt;I finally did it! I made the move from Southern California to New York!&lt;/p&gt;
-
-&lt;p&gt;It was not an easy process but oh did I learn so much along the way.&lt;/p&gt;
-
-&lt;p&gt;The first step was to spend a week in an airbnb while I got used to the climate, found an apartment, and get to work. My very first night, I had to wait an hour and a half for my airbnb host to let me in. The weather in early March was absolutely freezing, so my first experience as a future resident of New York was absolutely terrible. My hands have had frostbite before (it gets very very very cold at 6am in the valley cycling path near my parent’s house). So I got the wonderful residual numbness come back. After a very grumpy amount of texting I got into the airbnb, which I’m pretty sure now the whole airbnb was illegal. Airbnb has a tricky relationship with New York and most (all) the apartments I viewed wrote in eviction clauses for airbnb hosting.&lt;/p&gt;
-
-&lt;p&gt;Due to my works wonderful flexible hours I was able to disappear frequently to take looks at apartments so that was nice. I found borrowing a citi bike card was a life saver as I was able to get from apartment showing to apartment showing without much hassel besides occassionally stopping to check google maps. Thinking Brooklyn would be cheaper, I initally started my search there, but I ended my search in Manhattan in the East Village in a small studio!&lt;/p&gt;
-
-&lt;p&gt;Moving to New York was quite another experience. Thanks to my mom (who’s probably the only one reading this), moving went very smooth. I brought no furniture with me and instead put together a nice little apartment with ikea furniture. Due to time constraints, I spent a little extra money on having ikea furniture built for me. It freed up my mom and I’s time to work on the apartment, eat, and not be pissed off the whole time.&lt;/p&gt;
-
-&lt;p&gt;I started work as software engineer at Noodle Pros (&lt;a href=&quot;https://noodlepros.com&quot;&gt;noodlepros.com&lt;/a&gt;), a tutoring company located in Union Square. My main responsibilities are bringing their system to life and adding new and better features to help with some aggressive growth goals. I love that I’m reinventing tutoring and building engaging tools that our users (clients and tutors) will use daily.&lt;/p&gt;
-
-&lt;p&gt;I have totally lost the time to keep up with a commit a day. I will try as hard as I can to continue it now, whether it be even css changes (I’m trying to learn design) or actual coding, but it’s hard when I have the pressure to build new features with aggressive deadlines at work. I assure you have kept up with commits, just not on my public commit log. I have so many new adventures a head of me and I’ll try to keep them here.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 29 May 2017 00:00:00 -0400</pubDate>
-        <link>tylerdross.com/2017/05/29/Moving-To-New-York.html</link>
-        <guid isPermaLink="true">tylerdross.com/2017/05/29/Moving-To-New-York.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Focusly Release</title>
-        <description>&lt;p&gt;It’s 3 months in and I’ve finally released Focusly! Focusly is a online tabata timer that integrates with Spotify that I vowed to finish in ~3 months in my New Years resolution. This post is going to be an update on that as well as introductin my new project.&lt;/p&gt;
-
-&lt;p&gt;Focusly is not an overly sophisticated tool built on node.js (express.js), redux, redux router, react sound and react. Express.js handles the oAuth2 authentication tokens as the middle man between the client and the user while Redux  and React handle the client side state and views. The way it works is that the user chooses the number of cycles and two playlists for both their work and rest sessions. The user than is guided to page which utilizes a timer and a Spotify play button in the sidebar. When the timer ends, a subtle alarm is sounded and the user is prompted to start change playlists.&lt;/p&gt;
-
-&lt;p&gt;One frustrating part of this project has been dealing with Spotify’s play button. It doesn’t listen to events, so only user actions can trigger the change of playlists. This caused me to pivot and use an sweet alarm instead, since I can’t the control iFrame. It’s obviously a pretty large flaw, and I’m anticipating Spotify to change this in the future which is why I’m labeling the project as in beta, since I’m at the will of Spotify.&lt;/p&gt;
-
-&lt;p&gt;I also had to pivot to user playlists instead of genres because of the restrictive Spotify API, when you churn up a recommendation seed with spotify it returns a mix of artists and tracks which I would have to turn into a playlist for it to work in the play button. It got very nasty and I found it was much easier to handle user playlists. In my personal use for this tool, I have specific playlists for each work and rest period.&lt;/p&gt;
-
-&lt;p&gt;There are still features to add like fixing the oAuth refresh token, but I’m comfortable with the product as it stands. I don’t expect a real user base, but rather a showcase of some work that I do publicly rather than behind a user wall with Stir.&lt;/p&gt;
-
-&lt;p&gt;I’m glad I got this project out of my hair. I’ve been working on my other projects like picking up C and other smaller projects, but at a reduced rate. I still need to finish my linear prediction algorithm and clean up some code for my SmartCells project and my C projects are inching along very slowly. I’m planning on backseating this project for now since it works, and looks alright.&lt;/p&gt;
-
-&lt;p&gt;I’ve also been on the full time grind with interviews and recruiters so that has been absolutely exhausting since my position at Stir ended. My advice would be to take a break once in a while. Go outside, ride a bike, go lift some heavy weights. Very cliche yes, but I’ve done almost two sample periods these last 4 weeks. One where I did absolutely nothing but apply to jobs and code, and the other where I trained 6 days of the week. I did spend less time with jobs and code, but my productivity increased radically. I actually got out of bed earlier and I was less inclined to not sleep. All of this is ancedotal at best though.&lt;/p&gt;
-
-&lt;p&gt;Woohoo to next adventures.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 Mar 2017 00:00:00 -0500</pubDate>
-        <link>tylerdross.com/2017/03/10/Focusly-Release.html</link>
-        <guid isPermaLink="true">tylerdross.com/2017/03/10/Focusly-Release.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>A Commit A Day Keeps The Doc Away</title>
-        <description>&lt;p&gt;It’s 2017! Guess it’s time to make some resolutions some of which I’ll never accomplish like all good New Years Resolutioners. However, one resolution I think I totally can resolve is spending an hour a day on personal projects. I think an hour a day (at least) is an excellent way to get my other resolution is to finish and ship all my personal projects.&lt;/p&gt;
-
-&lt;p&gt;The first project I’d like to finish is my online tabata timer that integrates with Spotify. I’m making use of material design and react.js to make a beautiful UI/UX that lets users play music along with their work projects without having an annoying beeper remind you to rest. Instead, a change of music moves you to the next session. Ok so I lied a little bit, I won’t be working for a whole hour a day, rather two 25 minute periods with two 5 minute breaks. Still as long as I get the work done and I don’t get distracted I’ll call it a W. I want to finish it in 3 months.&lt;/p&gt;
-
-&lt;p&gt;The other project I have steaming is afterHacks which allows users to demonstrate their hacks online and gets github stars or pull requests. This idea isn’t planned out very well. I won’t be devasted if this idea is scrapped even though I spent 5 bucks on a domain name to motivate myself. Whelp, oh well.&lt;/p&gt;
-
-&lt;p&gt;Another hour of work I consider is this personal site whether I add a blog post or fix some css or js. There’s lots of little things to do like fixing the JS on the front page (mostly for mobile) and making my contact page a little bit more elaborate. I’d also like to make a elaborate blog page/blog list, including more images and interactive materials. I’m thinking I’ll definitely do quarterly updates.&lt;/p&gt;
-
-&lt;p&gt;The last project isn’t really a project but more of a skill building thing. I need to master algorithms and data structures as well as getting C under my belt so I can firmly put it on my resume. It would fun to get into some embedded systems and play with my rasberry pi with some capabilities.&lt;/p&gt;
-
-&lt;p&gt;Knowing me, I’ll probably have a few new projects throughout the year, but I want to end 2017 with all of them finished and shipped (again, a resolution).&lt;/p&gt;
-
-&lt;p&gt;I’m hoping to keep track of my progress with at least a commit a day to keep the doc away, plus I get to see my github profile fill up with green squares.&lt;/p&gt;
-
-&lt;p&gt;Woah this is exciting! Happy New Years!!!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
-        <link>tylerdross.com/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html</link>
-        <guid isPermaLink="true">tylerdross.com/2017/01/01/A-Commit-A-Day-Keeps-The-Doc-Away.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>A Honest Review Of Jeykll</title>
-        <description>&lt;p&gt;I feel like it’s kind of corny to make my first blog post a review of the technology I’m using to make said blog but I don’t really care. The first think I like about Jeykll is how easy it is to set up. I will say however, I already had the developer environment set up so all I had to do set up a git repo and type in the command&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;force&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;and I was off to the races. Note, this may be hard if you’ve never used gem or another package manager. Furthermore, everything is already cleanly packaged with sass from the get go and comes with everything you need to build a site in literally seconds. I love the fact that I can prototype my site in another branch, test it with one command,&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;serve&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;and merge it back to master, commit and push it into production immediately. I will admit I’m not using it for anything production level and I only have my own white box testing which is mostly typo checking cause… simple static website.&lt;/p&gt;
-
-&lt;p&gt;Now onto the less glamourous parts. There’s a lot going on. While I think it is beginner friendly,I don’t think that’s necessarily a good thing. It’s prepackaged with a nice sass/css package called minima. It’s clean, easy, and looks good right off the bat. If you hate it, Jeykll makes it really nice to find other templates and themes to make your site look really good. However, the default package makes your site a plain, generic blog site. I had to delete so much of their code to make it barebones enough so I could start rebuilding from scratch.&lt;/p&gt;
-
-&lt;p&gt;If you’re only building a blog and were completely new to web development, I could see why it’s helpful. It includes all the layouts necessary and css right there. I’ve even seen other blog sites use the straight minima theme and maybe add a few lines of sass and suddenly blog site.&lt;/p&gt;
-
-&lt;p&gt;However, if you’re building more than one of these sites, it’s going to be relatively annoying to delete all default html files each time and start rebuilding the css, markdowns, file structure from scratch. It would be nice to possibly include the _include, _layouts, and maybe an assets folder to encourage the user to expand. Obviously it’s a fine line between being friendly to beginners and to those maybe slightly more experienced.&lt;/p&gt;
-
-&lt;p&gt;I’m also not a very big fan of Ruby. It’s a fine language, but the few lines I’ve written of it, I feel like I could’ve have written in fewer and more concise lines in Python. I would love this system in Python (and open sourced) so I could really dive in and modify it directly to my needs.&lt;/p&gt;
-
-&lt;p&gt;In the end, I feel like my problems are a little overembellished. It’s a very fast way to build static websites and deploy them rapidly. It includes lots of neat little features and has a very simple templating system. The documentation is clear and very well written. It hasn’t a very clean step by step process on each aspect of the section. It’s so much nicer than my original site which was plain html and css. I honestly can’t imagine using anything else and github-pages is totally free to host. Despite it’s slight learning curve and annoying default file system, I think everyone should use this as their personal site generator especially if they don’t need a backend or click and drag site generators.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 19 Sep 2016 00:00:00 -0400</pubDate>
-        <link>tylerdross.com/2016/09/19/A-Honest-Review-of-Jeykll.html</link>
-        <guid isPermaLink="true">tylerdross.com/2016/09/19/A-Honest-Review-of-Jeykll.html</guid>
-        
-        
-      </item>
     
   </channel>
 </rss>
