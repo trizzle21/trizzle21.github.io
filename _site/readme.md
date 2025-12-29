@@ -15,13 +15,26 @@ trizzle21.github.io is static page generated with Jeykll and hosted with Github 
 
 Tabs > spaces
 
-In order to run on local machine, run 
+## Run locally
+
+Install dependencies:
 
 ```
-jekyll serve
+bundle install
+```
+
+Start the dev server with live rebuilds:
+
+```
+bundle exec jekyll serve
+```
+
+Build the static site:
+
+```
+bundle exec jekyll build
 ```
 
 ## Copyright
 
 Copyleft 2015
-
