@@ -132,6 +132,10 @@ div.text_description { width: 78%; display: inline-block; height: 150px; vertica
 
 .profile_section { display: block; }
 
+.purpose_list { margin: 10px 50px 20px 325px; padding-left: 30px; list-style: square; line-height: 1.5; }
+
+.purpose_list li { margin: 6px 0; }
+
 #profile_p { margin-left: 20px; float: left; display: inline-block; }
 
 #profile_pic { padding: 0 20px 5px 0; float: left; position: relative; display: inline-block; height: 350px; width: 300px; }
