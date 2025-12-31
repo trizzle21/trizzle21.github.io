@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "body.css",
+	"sources": [
+		"body.scss"
+	],
+	"sourcesContent": [
+		"$text-color: #111;\n$background-color: #fdfdfd;\n\nbody {\n\tbackground-color: $background-color;\n\tcolor: $text-color;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAGA,AAAA,IAAI,CAAC,EACJ,gBAAgB,EAHE,OAAO,EAIzB,KAAK,EALO,IAAI,GAMhB"
+}
