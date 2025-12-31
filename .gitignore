@@ -1,4 +1,9 @@
 sparepage.html
 
 MyWork.html
-.jekyll-cache
+.DS_Store
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/bundle/
