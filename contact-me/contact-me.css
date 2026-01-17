@@ -84,6 +84,26 @@
 	font-size: 16px;
 }
 
+.submit:disabled {
+	opacity: 0.7;
+	cursor: not-allowed;
+}
+
+.has-error {
+	border-color: #d66a6a !important;
+	background-color: #fff7f7;
+}
+
+.bot-field {
+	position: absolute;
+	left: -9999px;
+	visibility: hidden;
+}
+
+#error {
+	color: #d66a6a;
+}
+
 @media all and (max-width:800px){
 	.inline-box{
 		margin: 0;
