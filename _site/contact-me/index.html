@@ -34,6 +34,7 @@
         <nav>
             <a href="/purpose">About</a>
             <a href="/projects">Work</a>
+            <a href="/downloads">Downloads</a>
             <a href="/blog">Blog</a>
             <a href="/contact-me">Contact Me</a>
         </nav>
@@ -55,30 +56,39 @@
     <p>Hello Internet Denizens, I'm happy to answer any questions or network. Feel free to reach out.</p>
 
     <div class="contact-form">
+<<<<<<< HEAD
+        <form id="contact-form" method="post" novalidate>
+=======
         <form id="contact-form" method="post">
+>>>>>>> 1ca2ac7df4e117cfd0976a5db021407f29f26fbd
         <div class="inline-form">
-            <h4 class="form-label">First Name:</h4> 
-            <input type="text" class="form-field" id="first-name-input" placeholder="First Name..." />
+            <label class="form-label" for="first-name-input">First Name:</label> 
+            <input type="text" class="form-field" id="first-name-input" name="first_name" placeholder="First Name..." autocomplete="given-name" required minlength="2" maxlength="60" />
         </div>
         
         <div class="inline-form right-inline">
-            <h4 class="form-label">Last Name:</h4> 
-            <input type="text" class="form-field"  id="last-name-input" placeholder="Last Name..." />  
+            <label class="form-label" for="last-name-input">Last Name:</label> 
+            <input type="text" class="form-field"  id="last-name-input" name="last_name" placeholder="Last Name..." autocomplete="family-name" required minlength="2" maxlength="60" />  
         </div>
 
         <div> 
-            <h4 class="form-label">Email:</h3>
-            <input type="email" class="form-field" id="email-input" placeholder="Enter email here…"/>
+            <label class="form-label" for="email-input">Email:</label>
+            <input type="email" class="form-field" id="email-input" name="email" placeholder="Enter email here…" autocomplete="email" required maxlength="254"/>
         </div>
-        <div> 
+        <div class="bot-field">
+            <label class="form-label" for="company-input">Company</label>
+            <input type="text" class="form-field" id="company-input" name="company" placeholder="Leave blank" autocomplete="off" />
+            <input type="hidden" id="timestamp-input" name="timestamp" value="0" />
+        </div>
         <div>
-            <h4>How can we help you?</h4>
-            <textarea class="form-field form-text-area"  id="description-input" rows="3" placeholder="Enter your message…" class="form-control"></textarea><br/>
+            <label class="form-label" for="description-input">How can we help you?</label>
+            <textarea class="form-field form-text-area" id="description-input" name="message" rows="3" placeholder="Enter your message…" required minlength="10" maxlength="2000"></textarea><br/>
         </div>
 
         <div style="display: flex;">
-            <button data-sitekey="6Lc7cVMUAAAAAM1yxf64wrmO8gvi8A1oQ_ead1ys" type="button" id="contact-submit" class="submit inline-form g-recaptcha">Submit</button>
+            <button data-sitekey="6Lc7cVMUAAAAAM1yxf64wrmO8gvi8A1oQ_ead1ys" data-callback="onContactCaptcha" data-size="invisible" type="button" id="contact-submit" class="submit inline-form g-recaptcha">Submit</button>
             <p id="success" style="display:none; margin-left: 30px" class="inline-form">Success!</p>
+            <p id="error" style="display:none; margin-left: 30px" class="inline-form">Please fix the highlighted fields.</p>
         </div>
         </form>
     </div>
