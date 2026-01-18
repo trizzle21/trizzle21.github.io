@@ -56,6 +56,10 @@
 				this.handleError('Something went wrong. Please try again.');
 				return;
 			}
+			if (!token) {
+				this.handleError('Captcha unavailable. Please try again.');
+				return;
+			}
             const name = this.$firstName.val() + ' ' + this.$lastName.val();
             
             var payload = {
