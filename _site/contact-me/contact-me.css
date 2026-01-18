@@ -1,16 +1,19 @@
 
 .contact-box {
 	max-width: 720px;
-	margin: 30px auto;
+	margin: 30px 0 0 0;
 	padding: 0 20px 20px 20px;
+	flex: 1 1 320px;
 }
 
-.inline-box {
+.contact-form-box {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 20px;
+	gap: 32px;
 	margin: 0;
+	align-items: flex-start;
 }
+
 .inline-form {
 	flex: 1 1 320px;
 }
@@ -105,7 +108,7 @@
 }
 
 @media all and (max-width:800px){
-	.inline-box{
+	.contact-form-box{
 		margin: 0;
 	}
 }

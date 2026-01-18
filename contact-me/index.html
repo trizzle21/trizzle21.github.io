@@ -6,12 +6,8 @@ layout: default
   
   
   <div class="contact-form-box">
-    <div class="inline-box">
-        {% include_relative contact-form.html %}
-    </div>  
-    <div class="inline-box">
-        {% include_relative contact-side.html %}
-    </div>
+    {% include_relative contact-form.html %}
+    {% include_relative contact-side.html %}
   </div>
     
   <link rel="stylesheet" href="{{ "/contact-me/contact-me.css" | prepend: full_base_url }}">
